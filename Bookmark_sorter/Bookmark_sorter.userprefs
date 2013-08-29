@@ -1,0 +1,16 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="BookmarkUI/GtkBookmarkLoader.vb">
+    <Files>
+      <File FileName="Bookmark_sorter/CFileManager.vb" Line="1" Column="1" />
+      <File FileName="Bookmark_sorter/CBookmarkSorter.vb" Line="1" Column="1" />
+      <File FileName="BookmarkUI/frmBookmark_loader.vb" Line="1" Column="1" />
+      <File FileName="BookmarkUI/frmBookmark_loader.Designer.vb" Line="1" Column="1" />
+      <File FileName="BookmarkUI/GtkBookmarkLoader.vb" Line="7" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
