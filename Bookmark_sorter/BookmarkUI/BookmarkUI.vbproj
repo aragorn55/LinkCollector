@@ -19,12 +19,13 @@
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
     <PlatformTarget>x86</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
-    <DebugType>full</DebugType>
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
     <DocumentationFile>BookmarkUI.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <AdditionalParameters>
+    </AdditionalParameters>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
     <PlatformTarget>x86</PlatformTarget>
@@ -35,12 +36,8 @@
     <OutputPath>bin\Release\</OutputPath>
     <DocumentationFile>BookmarkUI.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
-  </PropertyGroup>
-  <PropertyGroup>
-    <OptionExplicit>On</OptionExplicit>
-  </PropertyGroup>
-  <PropertyGroup>
-    <OptionCompare>Binary</OptionCompare>
+    <AdditionalParameters>
+    </AdditionalParameters>
   </PropertyGroup>
   <PropertyGroup>
     <OptionStrict>On</OptionStrict>
@@ -117,9 +114,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Bookmark_sorter\Bookmark_sorter.vbproj">
+    <ProjectReference Include="..\Bookmark_sorter\Bookmark_sorter.vb.vbproj">
       <Project>{7A2E6758-1545-4EA9-931B-C83F4BE62FDF}</Project>
-      <Name>Bookmark_sorter</Name>
+      <Name>Bookmark_sorter.vb</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />

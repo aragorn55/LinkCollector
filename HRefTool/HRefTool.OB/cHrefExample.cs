@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace HRefTool.OB
 {
-    public class cHrefExample
+    public class CHrefExample
     {
         private static void DumpHRefs(string inputString)
         {
