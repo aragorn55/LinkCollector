@@ -86,6 +86,20 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BookmarkTools.OB\BookmarkTools.OB.csproj">
+      <Project>{26d0882b-668f-4d86-9d81-746035183998}</Project>
+      <Name>BookmarkTools.OB</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FFTool.OB\FFTool.OB.csproj">
+      <Project>{88e205fa-3542-4281-ab36-f64e5a205aef}</Project>
+      <Name>FFTool.OB</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Utilities.DL\Utilities.DL.csproj">
+      <Project>{451582f7-dc25-4762-ad38-828e7953dbf8}</Project>
+      <Name>Utilities.DL</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

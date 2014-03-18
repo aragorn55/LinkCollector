@@ -1,0 +1,3 @@
+C:\G\LinkCollector\FFBuilder\FFTool.UI\obj\Debug\FFTool.UI.csprojResolveAssemblyReference.cache
+C:\G\LinkCollector\FFBuilder\FFTool.UI\obj\Debug\FFTool.UI.Properties.Resources.resources
+C:\G\LinkCollector\FFBuilder\FFTool.UI\obj\Debug\FFTool.UI.csproj.GenerateResource.Cache

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using Utilities.DL;
 
-namespace FFtool.OB
+namespace FFTool.OB
 {
     public class cUrlTool
     {

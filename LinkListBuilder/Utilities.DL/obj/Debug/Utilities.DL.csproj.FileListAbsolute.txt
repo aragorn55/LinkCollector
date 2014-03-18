@@ -1,0 +1,20 @@
+C:\Users\joshua\Documents\Visual Studio 2010\Projects\FFtool\Utilities.DL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\joshua\Documents\Visual Studio 2010\Projects\FFtool\Utilities.DL\bin\Debug\Utilities.DL.dll
+C:\Users\joshua\Documents\Visual Studio 2010\Projects\FFtool\Utilities.DL\bin\Debug\Utilities.DL.pdb
+C:\Users\joshua\Documents\Visual Studio 2010\Projects\FFtool\Utilities.DL\obj\Debug\Utilities.DL.dll
+C:\Users\joshua\Documents\Visual Studio 2010\Projects\FFtool\Utilities.DL\obj\Debug\Utilities.DL.pdb
+C:\Users\joshua\Dev\cSharp\FFtool\Utilities.DL\obj\Debug\Utilities.DL.dll
+C:\Users\joshua\Dev\cSharp\FFtool\Utilities.DL\obj\Debug\Utilities.DL.pdb
+C:\Users\joshua\Dev\cSharp\FFtool\Utilities.DL\bin\Debug\Utilities.DL.dll
+C:\Users\joshua\Dev\cSharp\FFtool\Utilities.DL\bin\Debug\Utilities.DL.pdb
+C:\Users\joshua\Dev\cSharp\FFtool\Utilities.DL\obj\Debug\Utilities.DL.csprojResolveAssemblyReference.cache
+C:\G\Personal\FFCommandBuilder\Utilities.DL\bin\Debug\Utilities.DL.dll
+C:\G\Personal\FFCommandBuilder\Utilities.DL\bin\Debug\Utilities.DL.pdb
+C:\G\Personal\FFCommandBuilder\Utilities.DL\obj\Debug\Utilities.DL.csprojResolveAssemblyReference.cache
+C:\G\Personal\FFCommandBuilder\Utilities.DL\obj\Debug\Utilities.DL.dll
+C:\G\Personal\FFCommandBuilder\Utilities.DL\obj\Debug\Utilities.DL.pdb
+C:\G\LinkCollector\LinkListBuilder\Utilities.DL\bin\Debug\Utilities.DL.dll
+C:\G\LinkCollector\LinkListBuilder\Utilities.DL\bin\Debug\Utilities.DL.pdb
+C:\G\LinkCollector\LinkListBuilder\Utilities.DL\obj\Debug\Utilities.DL.dll
+C:\G\LinkCollector\LinkListBuilder\Utilities.DL\obj\Debug\Utilities.DL.pdb
+C:\G\LinkCollector\LinkListBuilder\Utilities.DL\obj\Debug\Utilities.DL.csprojResolveAssemblyReference.cache

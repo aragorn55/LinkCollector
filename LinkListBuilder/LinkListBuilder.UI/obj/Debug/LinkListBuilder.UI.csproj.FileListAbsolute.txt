@@ -1,0 +1,13 @@
+C:\G\LinkCollector\LinkListBuilder\LinkListBuilder.UI\bin\Debug\LinkListBuilder.UI.exe.config
+C:\G\LinkCollector\LinkListBuilder\LinkListBuilder.UI\bin\Debug\LinkListBuilder.UI.exe
+C:\G\LinkCollector\LinkListBuilder\LinkListBuilder.UI\bin\Debug\LinkListBuilder.UI.pdb
+C:\G\LinkCollector\LinkListBuilder\LinkListBuilder.UI\bin\Debug\FFTool.OB.dll
+C:\G\LinkCollector\LinkListBuilder\LinkListBuilder.UI\bin\Debug\Utilities.DL.dll
+C:\G\LinkCollector\LinkListBuilder\LinkListBuilder.UI\bin\Debug\FFTool.OB.pdb
+C:\G\LinkCollector\LinkListBuilder\LinkListBuilder.UI\bin\Debug\Utilities.DL.pdb
+C:\G\LinkCollector\LinkListBuilder\LinkListBuilder.UI\obj\Debug\LinkListBuilder.UI.csprojResolveAssemblyReference.cache
+C:\G\LinkCollector\LinkListBuilder\LinkListBuilder.UI\obj\Debug\LinkListBuilder.UI.Form1.resources
+C:\G\LinkCollector\LinkListBuilder\LinkListBuilder.UI\obj\Debug\LinkListBuilder.UI.Properties.Resources.resources
+C:\G\LinkCollector\LinkListBuilder\LinkListBuilder.UI\obj\Debug\LinkListBuilder.UI.csproj.GenerateResource.Cache
+C:\G\LinkCollector\LinkListBuilder\LinkListBuilder.UI\obj\Debug\LinkListBuilder.UI.exe
+C:\G\LinkCollector\LinkListBuilder\LinkListBuilder.UI\obj\Debug\LinkListBuilder.UI.pdb

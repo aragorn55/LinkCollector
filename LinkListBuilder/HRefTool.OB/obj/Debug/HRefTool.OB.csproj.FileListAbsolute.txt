@@ -1,0 +1,9 @@
+C:\G\LinkCollector\HRefTool\HRefTool.OB\bin\Debug\HRefTool.OB.dll
+C:\G\LinkCollector\HRefTool\HRefTool.OB\bin\Debug\HRefTool.OB.pdb
+C:\G\LinkCollector\HRefTool\HRefTool.OB\obj\Debug\HRefTool.OB.dll
+C:\G\LinkCollector\HRefTool\HRefTool.OB\obj\Debug\HRefTool.OB.pdb
+C:\G\LinkCollector\LinkListBuilder\HRefTool.OB\bin\Debug\HRefTool.OB.dll
+C:\G\LinkCollector\LinkListBuilder\HRefTool.OB\bin\Debug\HRefTool.OB.pdb
+C:\G\LinkCollector\LinkListBuilder\HRefTool.OB\obj\Debug\HRefTool.OB.dll
+C:\G\LinkCollector\LinkListBuilder\HRefTool.OB\obj\Debug\HRefTool.OB.pdb
+C:\G\LinkCollector\LinkListBuilder\HRefTool.OB\obj\Debug\HRefTool.OB.csprojResolveAssemblyReference.cache

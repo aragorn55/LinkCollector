@@ -1,0 +1,5 @@
+C:\G\LinkCollector\HRefTool\HRefTool.OB\obj\Debug\.NETFramework,Version=v4.5.AssemblyAttribute.cs
+C:\G\LinkCollector\HRefTool\HRefTool.OB\bin\Debug\HRefTool.OB.dll.mdb
+C:\G\LinkCollector\HRefTool\HRefTool.OB\bin\Debug\HRefTool.OB.dll
+C:\G\LinkCollector\HRefTool\HRefTool.OB\obj\Debug\HRefTool.OB.dll
+C:\G\LinkCollector\HRefTool\HRefTool.OB\obj\Debug\HRefTool.OB.dll.mdb

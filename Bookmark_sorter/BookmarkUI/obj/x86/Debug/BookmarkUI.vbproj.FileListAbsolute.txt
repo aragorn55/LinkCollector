@@ -28,3 +28,4 @@ C:\Users\joshua\Dev\cSharp\Bookmark_sorter\BookmarkUI\bin\Debug\Bookmark_sorter.
 C:\Users\joshua\Dev\cSharp\Bookmark_sorter\BookmarkUI\bin\Debug\Bookmark_sorter.pdb
 C:\Users\joshua\Dev\cSharp\Bookmark_sorter\BookmarkUI\bin\Debug\Bookmark_sorter.xml
 C:\Users\joshua\Dev\cSharp\Bookmark_sorter\BookmarkUI\obj\x86\Debug\BookmarkUI.vbprojResolveAssemblyReference.cache
+C:\G\LinkCollector\Bookmark_sorter\BookmarkUI\obj\x86\Debug\BookmarkUI.pdb

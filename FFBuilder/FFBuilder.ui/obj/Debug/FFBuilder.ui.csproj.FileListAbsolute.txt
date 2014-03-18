@@ -1,1 +1,8 @@
 C:\G\LinkCollector\FFBuilder\FFBuilder.ui\bin\Debug\FFBuilder.ui.exe.config
+C:\G\LinkCollector\FFBuilder\FFBuilder.ui\bin\Debug\FFBuilder.ui.exe
+C:\G\LinkCollector\FFBuilder\FFBuilder.ui\bin\Debug\FFBuilder.ui.pdb
+C:\G\LinkCollector\FFBuilder\FFBuilder.ui\obj\Debug\FFBuilder.ui.Form1.resources
+C:\G\LinkCollector\FFBuilder\FFBuilder.ui\obj\Debug\FFBuilder.ui.Properties.Resources.resources
+C:\G\LinkCollector\FFBuilder\FFBuilder.ui\obj\Debug\FFBuilder.ui.csproj.GenerateResource.Cache
+C:\G\LinkCollector\FFBuilder\FFBuilder.ui\obj\Debug\FFBuilder.ui.exe
+C:\G\LinkCollector\FFBuilder\FFBuilder.ui\obj\Debug\FFBuilder.ui.pdb

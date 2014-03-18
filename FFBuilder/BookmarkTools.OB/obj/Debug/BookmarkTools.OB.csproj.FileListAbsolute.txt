@@ -1,0 +1,14 @@
+C:\Users\joshua\Dev\cSharp\FFtool\BookmarkTools.OB\bin\Debug\BookmarkTools.OB.dll
+C:\Users\joshua\Dev\cSharp\FFtool\BookmarkTools.OB\bin\Debug\BookmarkTools.OB.pdb
+C:\Users\joshua\Dev\cSharp\FFtool\BookmarkTools.OB\bin\Debug\Utilities.DL.dll
+C:\Users\joshua\Dev\cSharp\FFtool\BookmarkTools.OB\bin\Debug\Utilities.DL.pdb
+C:\Users\joshua\Dev\cSharp\FFtool\BookmarkTools.OB\obj\Debug\BookmarkTools.OB.dll
+C:\Users\joshua\Dev\cSharp\FFtool\BookmarkTools.OB\obj\Debug\BookmarkTools.OB.pdb
+C:\Users\joshua\Dev\cSharp\FFtool\BookmarkTools.OB\obj\Debug\BookmarkTools.OB.csprojResolveAssemblyReference.cache
+C:\G\LinkCollector\FFBuilder\BookmarkTools.OB\bin\Debug\BookmarkTools.OB.dll
+C:\G\LinkCollector\FFBuilder\BookmarkTools.OB\bin\Debug\BookmarkTools.OB.pdb
+C:\G\LinkCollector\FFBuilder\BookmarkTools.OB\bin\Debug\Utilities.DL.dll
+C:\G\LinkCollector\FFBuilder\BookmarkTools.OB\bin\Debug\Utilities.DL.pdb
+C:\G\LinkCollector\FFBuilder\BookmarkTools.OB\obj\Debug\BookmarkTools.OB.csprojResolveAssemblyReference.cache
+C:\G\LinkCollector\FFBuilder\BookmarkTools.OB\obj\Debug\BookmarkTools.OB.dll
+C:\G\LinkCollector\FFBuilder\BookmarkTools.OB\obj\Debug\BookmarkTools.OB.pdb
