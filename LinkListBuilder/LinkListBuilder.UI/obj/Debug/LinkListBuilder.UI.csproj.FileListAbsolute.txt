@@ -11,3 +11,6 @@ C:\G\LinkCollector\LinkListBuilder\LinkListBuilder.UI\obj\Debug\LinkListBuilder.
 C:\G\LinkCollector\LinkListBuilder\LinkListBuilder.UI\obj\Debug\LinkListBuilder.UI.csproj.GenerateResource.Cache
 C:\G\LinkCollector\LinkListBuilder\LinkListBuilder.UI\obj\Debug\LinkListBuilder.UI.exe
 C:\G\LinkCollector\LinkListBuilder\LinkListBuilder.UI\obj\Debug\LinkListBuilder.UI.pdb
+C:\Users\500124115\Desktop\GitHub\LinkCollector\LinkListBuilder\LinkListBuilder.UI\bin\Debug\LinkListBuilder.UI.exe.config
+C:\Users\500124115\Desktop\GitHub\LinkCollector\LinkListBuilder\LinkListBuilder.UI\obj\Debug\LinkListBuilder.UI.exe
+C:\Users\500124115\Desktop\GitHub\LinkCollector\LinkListBuilder\LinkListBuilder.UI\obj\Debug\LinkListBuilder.UI.pdb

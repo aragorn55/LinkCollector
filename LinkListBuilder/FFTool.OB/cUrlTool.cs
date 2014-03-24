@@ -8,6 +8,7 @@ namespace FFTool.OB
 {
     public class cUrlTool
     {
+        private cFFdotNetFics oFFdotNets = new cFFdotNetFics();
         private string msExportedLinkPath;
         private List<String> msUrlList;
         private int iFilesExtracted = 0;
@@ -159,6 +160,7 @@ namespace FFTool.OB
             for (int iCnt = 0; iCnt < msUrlList.Count(); iCnt++)
             {
                 oSorter.SortBookmark(msUrlList[iCnt]);
+                FixFFdotNet(msUrlList[iCnt]);
                 
             }
         }
@@ -173,6 +175,7 @@ namespace FFTool.OB
                 
                 bool blnFound = true;
                 int icnt = 29;
+                string sId = "";
                 while (blnFound)
                 {
                     if (vsUrl.Substring(icnt, 1) == "/")
@@ -186,14 +189,22 @@ namespace FFTool.OB
                             sOldChapter = sOldChapter + vsUrl.Substring(iEnd, 1);
                             iEnd += 1;
                             iLeng += 1;
-                        
+
                         }
                         //iLeng += 1;
                         //sOldChapter = sOldChapter;
                         string sStartUrl = vsUrl.Substring(0, iStart);
                         string sEnd = vsUrl.Substring(iEnd);
                         vsUrl = sStartUrl + "1" + sEnd;
+                        cFFdotNetFic oFic = new cFFdotNetFic();
+                        oFic.StoryLink = vsUrl;
+                        oFic.StoryId = sId;
+                        oFFdotNets.Add(oFic);
                         blnFound = false;
+                    }
+                    else
+                    {
+                        sId += vsUrl.Substring(icnt, 1);
                     }
                     icnt = icnt + 1;
                 }

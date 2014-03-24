@@ -39,9 +39,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="cFFdotNetFic.cs" />
     <Compile Include="CFileManager.cs" />
     <Compile Include="cLinkCatagories.cs" />
     <Compile Include="cLinkCategory.cs" />
+    <Compile Include="cFFdotNetFics.cs" />
     <Compile Include="cUrlTool.cs" />
     <Compile Include="LinkSorter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
