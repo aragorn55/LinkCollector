@@ -128,7 +128,6 @@ namespace Utilities.DL
                 {
                     File.Delete(msFileName);
                     return true;
-
                 }
                 else
                 {
@@ -149,7 +148,9 @@ namespace Utilities.DL
         }
         public string[] GetFileListWexten(string vsPath, string vsExten)
         {
-            string[] filePaths = Directory.GetFiles(@"c:\MyDir\", "*.bmp");
+            vsPath = "@" + vsPath;
+            vsExten = "*" + vsExten;
+            string[] filePaths = Directory.GetFiles(vsPath, vsExten);
             return filePaths;
         }
         public string[] GetAllFileList(string vsPath)

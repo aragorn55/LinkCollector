@@ -140,10 +140,10 @@ namespace FFTool.OB
                 for (int iCnt = 0; iCnt < sUrlList.Count(); iCnt++)
                 {
 
-                    if (sUrlList[iCnt].Substring(0, 26) == "http://m.fanfiction.net/s/")
-                    {
+                    // if (sUrlList[iCnt].Substring(0, 26) == "http://m.fanfiction.net/s/")
+                    // {
 
-                    }
+                    // }
                 }
                 return true;
             }
