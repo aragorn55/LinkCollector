@@ -16,11 +16,6 @@ namespace Utilities.DL
             get { return msFileName; }
             set { msFileName = value; }
         }
-
-        //public cFile()
-       // {
-
-       // }
         public cFile(string vsFileName)
         {
             //msFileName = "..//..//..//Utilities.DL//" + vsFileName;
@@ -47,10 +42,11 @@ namespace Utilities.DL
             // {
             //     throw new FileWasNotFoundException("Throw it against the wall Moron");
             // }
-            catch
+            catch (Exception ex)
             {
 
-                throw; //ex;
+                throw ex;
+
             }
         }
         public List<String> ReadList()
@@ -73,10 +69,11 @@ namespace Utilities.DL
                 // {
                 //     throw new FileWasNotFoundException("Throw it against the wall Moron");
                 // }
-                catch
+                catch (Exception ex)
                 {
 
-                    throw; //ex;
+                    throw ex;
+
                 }
             }
         
@@ -153,6 +150,15 @@ namespace Utilities.DL
             string[] filePaths = Directory.GetFiles(vsPath, vsExten);
             return filePaths;
         }
+        public List<string> AllFileListWExten(string vsPath, string vsExten)
+        {
+            vsPath = "@" + vsPath;
+            vsExten = "*" + vsExten;
+            string[] filePaths = Directory.GetFiles(vsPath, vsExten);
+            List<string> sFileList = filePaths.ToList();
+           
+            return sFileList;
+        }
         public string[] GetAllFileList(string vsPath)
         {
             //vsPath = "@" + vsPath;
@@ -163,14 +169,17 @@ namespace Utilities.DL
         }
         public List<string> AllFileList(string vsPath)
         {
-            string[] filePaths = GetAllFileList(vsPath);
-            List<string> sFileList = new List<string>();
-            for (int iCnt = 0; iCnt < filePaths.Count(); iCnt++)
+            try
             {
+                List<string> sFileList = Directory.GetFiles(vsPath, "*", SearchOption.AllDirectories).ToList();
+                return sFileList;
 
-                sFileList.Add(filePaths[iCnt]);
             }
-            return sFileList;
+            catch (Exception ex)
+            {
+                WriteLog(ex.Message, "AllFileListError.log");
+                throw;
+            }
         }
         public void SaveLink(string sInput, string sPath)
         {

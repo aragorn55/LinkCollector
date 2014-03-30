@@ -96,10 +96,12 @@ namespace FFTool.OB
                 }
                 return true;
             }
-            catch
+             
+            catch (Exception ex)
             {
 
-                throw; //ex;
+                throw ex;
+                
             }
            // catch (Exception ex)
            // {
@@ -135,6 +137,8 @@ namespace FFTool.OB
             try
             {
                 cFile oFile = new cFile(vsPath);
+                string sFFdef1 = "http://m.fanfiction.net/s/";
+                string sFFdef2 = "https://m.fanfiction.net/s/";
                 //oFile.FileName = ;
                 List<String> sUrlList = oFile.ReadList();
                 for (int iCnt = 0; iCnt < sUrlList.Count(); iCnt++)
@@ -142,16 +146,31 @@ namespace FFTool.OB
 
                     // if (sUrlList[iCnt].Substring(0, 26) == "http://m.fanfiction.net/s/")
                     // {
+                    if ((sUrlList[iCnt].Substring(0, 26) == sFFdef1) ||(sUrlList[iCnt].Substring(0, 27) == sFFdef2))
+                    {
 
                     // }
                 }
                 return true;
+                }
             }
-            catch
+            catch (Exception ex)
             {
 
-                throw; //ex;
+                throw ex;
+
             }
+            return false;
+        }
+        public string FixUrl(string vsUrl)
+        {
+            string shttp = "https";
+            if ((vsUrl.Substring(0, 5) == shttp))
+                    {
+                vsUrl = vsUrl.Replace("https", "http");
+
+                    }
+            return vsUrl;
         }
         public void Sort()
         {
@@ -166,10 +185,15 @@ namespace FFTool.OB
         }
         public string FixFFdotNet(string vsUrl)
         {
-            if (vsUrl.Substring(0, 26) == "http://m.fanfiction.net/s/")
-            {
-               vsUrl = vsUrl.Replace("http://m.fanfiction.net/s/", "http://www.fanfiction.net/s/");
-            }
+            string sFFdef1 = "http://m.fanfiction.net/s/";
+            
+            if ((vsUrl.Substring(0, 26) == sFFdef1))
+                    {
+                vsUrl = vsUrl.Replace("http://m.fanfiction.net/s/", "http://www.fanfiction.net/s/");
+
+                    }
+               
+            
             if (vsUrl.Substring(0, 28) == "http://www.fanfiction.net/s/")
             {
                 
@@ -233,10 +257,11 @@ namespace FFTool.OB
                 }
                 return true;
             }
-            catch
+            catch (Exception ex)
             {
 
-                throw; //ex;
+                throw ex;
+
             }
             throw new System.NotImplementedException();
 

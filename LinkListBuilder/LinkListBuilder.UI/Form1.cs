@@ -15,6 +15,7 @@ namespace LinkListBuilder.UI
     public partial class Form1 : Form
     {
         cUrlTool oTool = new cUrlTool();
+        cLinkCollector oMerge = new cLinkCollector();
         public Form1()
         {
             InitializeComponent();
@@ -71,6 +72,38 @@ namespace LinkListBuilder.UI
         {
             importSortTextFileLinks();
         }
+        //importSortTextFileLinks
+        private void MergeLinkFiles()
+        {
+            cFile oFile = new cFile("FilesLoaded");
+            try
+            {
+                string startupPath = Application.StartupPath;
+                using (FolderBrowserDialog dialog = new FolderBrowserDialog())
+                {
+                
+                   //     string folder = dialog.SelectedPath;
+                        lblOutput.Text = "started";
+                        oMerge.ExportedLinkPath = "Merge.txt";
+                        oMerge.GetLinks("C:\\Users\\joshua\\Desktop\\ff-links");
+                        lblOutput.Text = "outputting";
+                        oMerge.WriteLinks();
+                       // oMerge.WriteLinks();
+                        lblOutput.Text = "done";
+		
+                        
+                   
+                    }
+                 lblOutput.Text = "done";
+                }
+             
+               
+            
+            catch (Exception exc)
+            {
+                MessageBox.Show("Import failed because " + exc.Message + " , please try again later.");
+            }
+            }
         private void importSortTextFileLinks()
         {
             cFile oFile = new cFile("FilesLoaded");
@@ -85,6 +118,7 @@ namespace LinkListBuilder.UI
                     if (dialog.ShowDialog() == DialogResult.OK)
                     {
                         string folder = dialog.SelectedPath;
+                        lblOutput.Text = dialog.SelectedPath;
                         foreach (string fileName in Directory.GetFiles(folder, "*.txt", SearchOption.AllDirectories))
                         {
                             oTool.ExportedLinkPath = "Input.txt";
@@ -115,6 +149,11 @@ namespace LinkListBuilder.UI
                 MessageBox.Show("Import failed because " + exc.Message + " , please try again later.");
             }
 
+        }
+
+        private void btnMergeLinkFiles_Click(object sender, EventArgs e)
+        {
+            MergeLinkFiles();
         }
     }
 }

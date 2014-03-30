@@ -17,4 +17,6 @@ C:\G\LinkCollector\LinkListBuilder\Utilities.DL\bin\Debug\Utilities.DL.dll
 C:\G\LinkCollector\LinkListBuilder\Utilities.DL\bin\Debug\Utilities.DL.pdb
 C:\G\LinkCollector\LinkListBuilder\Utilities.DL\obj\Debug\Utilities.DL.dll
 C:\G\LinkCollector\LinkListBuilder\Utilities.DL\obj\Debug\Utilities.DL.pdb
+C:\G\LinkCollector\LinkListBuilder\Utilities.DL\bin\Debug\Utilities.DL.dll.CodeAnalysisLog.xml
+C:\G\LinkCollector\LinkListBuilder\Utilities.DL\bin\Debug\Utilities.DL.dll.lastcodeanalysissucceeded
 C:\G\LinkCollector\LinkListBuilder\Utilities.DL\obj\Debug\Utilities.DL.csprojResolveAssemblyReference.cache
