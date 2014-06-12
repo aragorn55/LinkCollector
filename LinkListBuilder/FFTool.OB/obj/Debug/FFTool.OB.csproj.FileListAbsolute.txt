@@ -7,5 +7,3 @@ C:\G\LinkCollector\LinkListBuilder\FFTool.OB\bin\Debug\Utilities.DL.pdb
 C:\G\LinkCollector\LinkListBuilder\FFTool.OB\obj\Debug\FFTool.OB.csprojResolveAssemblyReference.cache
 C:\G\LinkCollector\LinkListBuilder\FFTool.OB\obj\Debug\FFTool.OB.dll
 C:\G\LinkCollector\LinkListBuilder\FFTool.OB\obj\Debug\FFTool.OB.pdb
-C:\G\LinkCollector\LinkListBuilder\FFTool.OB\bin\Debug\FFTool.OB.dll.CodeAnalysisLog.xml
-C:\G\LinkCollector\LinkListBuilder\FFTool.OB\bin\Debug\FFTool.OB.dll.lastcodeanalysissucceeded

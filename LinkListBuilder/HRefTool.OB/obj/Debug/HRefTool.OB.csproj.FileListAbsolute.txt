@@ -6,5 +6,4 @@ C:\G\LinkCollector\LinkListBuilder\HRefTool.OB\bin\Debug\HRefTool.OB.dll
 C:\G\LinkCollector\LinkListBuilder\HRefTool.OB\bin\Debug\HRefTool.OB.pdb
 C:\G\LinkCollector\LinkListBuilder\HRefTool.OB\obj\Debug\HRefTool.OB.dll
 C:\G\LinkCollector\LinkListBuilder\HRefTool.OB\obj\Debug\HRefTool.OB.pdb
-C:\G\LinkCollector\LinkListBuilder\HRefTool.OB\bin\Debug\HRefTool.OB.dll.CodeAnalysisLog.xml
-C:\G\LinkCollector\LinkListBuilder\HRefTool.OB\bin\Debug\HRefTool.OB.dll.lastcodeanalysissucceeded
+C:\G\LinkCollector\LinkListBuilder\HRefTool.OB\obj\Debug\HRefTool.OB.csprojResolveAssemblyReference.cache

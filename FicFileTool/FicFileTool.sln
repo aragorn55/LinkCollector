@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FicFileTool.UI", "FicFileTool.UI\FicFileTool.UI.csproj", "{268136A2-4873-445F-9875-A304B0B2BFB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FicFileTool.epub", "FicFileTool.epub\FicFileTool.epub.csproj", "{FEC63C1B-5E4B-426A-9206-0186DD32133C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{268136A2-4873-445F-9875-A304B0B2BFB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{268136A2-4873-445F-9875-A304B0B2BFB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{268136A2-4873-445F-9875-A304B0B2BFB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{268136A2-4873-445F-9875-A304B0B2BFB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEC63C1B-5E4B-426A-9206-0186DD32133C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEC63C1B-5E4B-426A-9206-0186DD32133C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEC63C1B-5E4B-426A-9206-0186DD32133C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEC63C1B-5E4B-426A-9206-0186DD32133C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

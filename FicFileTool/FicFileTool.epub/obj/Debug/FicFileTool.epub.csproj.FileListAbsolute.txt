@@ -1,0 +1,14 @@
+C:\G\Personal\FicFileTool\FicFileTool.epub\bin\Debug\FicFileTool.epub.dll
+C:\G\Personal\FicFileTool\FicFileTool.epub\bin\Debug\FicFileTool.epub.pdb
+C:\G\Personal\FicFileTool\FicFileTool.epub\bin\Debug\eBdb.EpubReader.dll
+C:\G\Personal\FicFileTool\FicFileTool.epub\bin\Debug\Ionic.Zip.dll
+C:\G\Personal\FicFileTool\FicFileTool.epub\obj\Debug\FicFileTool.epub.dll
+C:\G\Personal\FicFileTool\FicFileTool.epub\obj\Debug\FicFileTool.epub.pdb
+C:\G\Personal\FicFileTool\FicFileTool.epub\obj\Debug\FicFileTool.epub.csprojResolveAssemblyReference.cache
+C:\G\LinkCollector\FicFileTool\FicFileTool.epub\bin\Debug\FicFileTool.epub.dll
+C:\G\LinkCollector\FicFileTool\FicFileTool.epub\bin\Debug\FicFileTool.epub.pdb
+C:\G\LinkCollector\FicFileTool\FicFileTool.epub\bin\Debug\eBdb.EpubReader.dll
+C:\G\LinkCollector\FicFileTool\FicFileTool.epub\bin\Debug\Ionic.Zip.dll
+C:\G\LinkCollector\FicFileTool\FicFileTool.epub\obj\Debug\FicFileTool.epub.csprojResolveAssemblyReference.cache
+C:\G\LinkCollector\FicFileTool\FicFileTool.epub\obj\Debug\FicFileTool.epub.dll
+C:\G\LinkCollector\FicFileTool\FicFileTool.epub\obj\Debug\FicFileTool.epub.pdb
