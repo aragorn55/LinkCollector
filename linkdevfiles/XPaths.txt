@@ -1,0 +1,4 @@
+/HTML/BODY/DIV[@id="content_parent"]/DIV[@id="content_wrapper"]/DIV[@id="content_wrapper_inner"]/TABLE[@id="gui_table1"]/TBODY/TR/TD/TABLE[@id="gui_table1i"]/TBODY/TR[1]/TD/DIV[2]
+TiTle xPath: html/body/div[4]/div/div/table/tbody/tr/td/table/tbody/tr[1]/td/b
+
+Summary xPath: html/body/div[4]/div/div/table/tbody/tr/td/table/tbody/tr[1]/td/div[1]/text()

@@ -1,0 +1,16 @@
+static void Main(string[] args)
+    {
+        string pathToDB = @"C:\Users\username\AppData\Local\Google\Chrome\User Data\Default\Bookmarks";
+        string pathToCopiedDB = System.IO.Path.GetTempFileName();
+        System.IO.File.Copy(pathToDB, pathToCopiedDB, true);
+
+        string jsonData = string.Empty;
+        using (StreamReader streamReader = new StreamReader(pathToCopiedDB))
+        {
+            jsonData = streamReader.ReadToEnd();
+            streamReader.Close();
+        }
+       
+        JavaScriptSerializer serializer = new JavaScriptSerializer();
+        Bookmarks bookmarks = serializer.Deserialize<Bookmarks>(jsonData);
+    }

@@ -1,0 +1,4 @@
+            string sWebPage = "";
+            WebClient Client = new WebClient();
+            Client.DownloadFile("http://mysite.com/myfile.txt", vsURL);
+            return sWebPage;
