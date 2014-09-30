@@ -6,3 +6,6 @@ C:\G\LinkCollector\FFBuilder\FFBuilder.ui\obj\Debug\FFBuilder.ui.Properties.Reso
 C:\G\LinkCollector\FFBuilder\FFBuilder.ui\obj\Debug\FFBuilder.ui.csproj.GenerateResource.Cache
 C:\G\LinkCollector\FFBuilder\FFBuilder.ui\obj\Debug\FFBuilder.ui.exe
 C:\G\LinkCollector\FFBuilder\FFBuilder.ui\obj\Debug\FFBuilder.ui.pdb
+C:\Users\500124115\Desktop\GitHub\LinkCollector\FFBuilder\FFBuilder.ui\bin\Debug\FFBuilder.ui.exe.config
+C:\Users\500124115\Desktop\GitHub\LinkCollector\FFBuilder\FFBuilder.ui\obj\Debug\FFBuilder.ui.exe
+C:\Users\500124115\Desktop\GitHub\LinkCollector\FFBuilder\FFBuilder.ui\obj\Debug\FFBuilder.ui.pdb

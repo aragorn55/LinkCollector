@@ -133,5 +133,9 @@ namespace FFtool.OB
             get { return msWebsiteName; }
             set { msWebsiteName = value; }
         }
+        public cFic()
+        {
+
+        }
     }
 }
