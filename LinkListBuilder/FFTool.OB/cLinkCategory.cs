@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 using Utilities.DL;
 namespace FFTool.OB
 {
-    public class cLinkCategory
-    {
-        private string mstrName;
+	public class cLinkCategory
+	{
+		private string mstrName;
 	private string mstrFileName;
 	private string mstrLinkDefine;
 	string msFileName = "LinkCategories.txt";
@@ -30,7 +30,7 @@ namespace FFTool.OB
 		mstrFileName = vsFileName;
 		mstrLinkDefine = vsLinkDefine;
 	}
-    public cLinkCategory()
+	public cLinkCategory()
 	{
 		mstrName = "";
 		mstrFileName = "";
@@ -41,7 +41,7 @@ namespace FFTool.OB
 
 
 		try {
-            cFile oFiler = new cFile();
+			cFile oFiler = new cFile();
 			oFiler.Write(mstrName + "|" + mstrFileName + "|" + mstrLinkDefine);
 			return true;
 
@@ -59,7 +59,7 @@ namespace FFTool.OB
 
 
 		try {
-            cFile oFiler = new cFile(vsFileName);
+			cFile oFiler = new cFile(vsFileName);
 			oFiler.Write(mstrName + "|" + mstrFileName + "|" + mstrLinkDefine);
 			return true;
 
@@ -72,5 +72,5 @@ namespace FFTool.OB
 
 
 	}
-    }
+	}
 }

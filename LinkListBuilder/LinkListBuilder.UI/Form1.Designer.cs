@@ -36,9 +36,10 @@
             // 
             // btnCollectLinksFromFolder
             // 
-            this.btnCollectLinksFromFolder.Location = new System.Drawing.Point(46, 61);
+            this.btnCollectLinksFromFolder.Location = new System.Drawing.Point(61, 75);
+            this.btnCollectLinksFromFolder.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnCollectLinksFromFolder.Name = "btnCollectLinksFromFolder";
-            this.btnCollectLinksFromFolder.Size = new System.Drawing.Size(187, 23);
+            this.btnCollectLinksFromFolder.Size = new System.Drawing.Size(249, 28);
             this.btnCollectLinksFromFolder.TabIndex = 0;
             this.btnCollectLinksFromFolder.Text = "CollectLinksFromFolder";
             this.btnCollectLinksFromFolder.UseVisualStyleBackColor = true;
@@ -46,18 +47,21 @@
             // 
             // lblOutput
             // 
-            this.lblOutput.AutoSize = true;
-            this.lblOutput.Location = new System.Drawing.Point(68, 156);
+            this.lblOutput.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.lblOutput.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblOutput.Location = new System.Drawing.Point(13, 298);
+            this.lblOutput.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblOutput.Name = "lblOutput";
-            this.lblOutput.Size = new System.Drawing.Size(35, 13);
+            this.lblOutput.Size = new System.Drawing.Size(1034, 29);
             this.lblOutput.TabIndex = 1;
             this.lblOutput.Text = "label1";
             // 
             // btnSort
             // 
-            this.btnSort.Location = new System.Drawing.Point(46, 115);
+            this.btnSort.Location = new System.Drawing.Point(61, 142);
+            this.btnSort.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnSort.Name = "btnSort";
-            this.btnSort.Size = new System.Drawing.Size(187, 23);
+            this.btnSort.Size = new System.Drawing.Size(249, 28);
             this.btnSort.TabIndex = 2;
             this.btnSort.Text = "SortLinks";
             this.btnSort.UseVisualStyleBackColor = true;
@@ -65,9 +69,10 @@
             // 
             // btnMergeLinkFiles
             // 
-            this.btnMergeLinkFiles.Location = new System.Drawing.Point(46, 216);
+            this.btnMergeLinkFiles.Location = new System.Drawing.Point(337, 75);
+            this.btnMergeLinkFiles.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnMergeLinkFiles.Name = "btnMergeLinkFiles";
-            this.btnMergeLinkFiles.Size = new System.Drawing.Size(187, 23);
+            this.btnMergeLinkFiles.Size = new System.Drawing.Size(249, 28);
             this.btnMergeLinkFiles.TabIndex = 3;
             this.btnMergeLinkFiles.Text = "Merge Link Files";
             this.btnMergeLinkFiles.UseVisualStyleBackColor = true;
@@ -75,17 +80,17 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(292, 273);
+            this.ClientSize = new System.Drawing.Size(1060, 336);
             this.Controls.Add(this.btnMergeLinkFiles);
             this.Controls.Add(this.btnSort);
             this.Controls.Add(this.lblOutput);
             this.Controls.Add(this.btnCollectLinksFromFolder);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 using Utilities.DL;
 
 namespace FFTool.OB
@@ -27,6 +28,11 @@ namespace FFTool.OB
             msUrlList = new List<string>();
 
         }
+        public async Task<bool> GetLinksAsyc(string vsFilepath)
+        {
+            // use await here, like so:
+            return await Task.Run(() => GetLinks(vsFilepath));
+        }
         public bool GetLinks(string vsPath)
         {
             try
@@ -49,6 +55,7 @@ namespace FFTool.OB
                 throw; //ex;
             }
         }
+        
         public void AddUrlList(List<String> vsUrlList)
         {
             for (int iCnt = 0; iCnt < vsUrlList.Count(); iCnt++)
@@ -57,14 +64,30 @@ namespace FFTool.OB
             }
 
         }
+        public Task GetLinksFromFileAsyc(string vsFilepath)
+        {
+            // use await here, like so
+            Task task = new Task(() =>
+            {
+                List<string> linksFromFile = GetLinksFromFile(vsFilepath);
+            });
+            //Task<List<String>> voTask = new Task<List<String>>(() => GetLinksFromFile(vsFilepath));
+            return task;
+        }
         public List<String> GetLinksFromFile(string vsPath)
         {
             cFile oFile = new cFile(vsPath);
             //oFile.FileName = ;
             List<String> sUrlList = oFile.ReadList();
+            msUrlList = sUrlList;
             return sUrlList;
             //throw new NotImplementedException();
 
+        }
+        public async Task<bool> LoadLinksFromFileAsyc(string vsFilepath)
+        {
+            // use await here, like so:
+            return await Task.Run(() => LoadLinksFromFile(vsFilepath));
         }
         public bool LoadLinksFromFile(string vsPath)
         {
@@ -110,6 +133,11 @@ namespace FFTool.OB
             //throw new NotImplementedException();
 
         }
+        public async Task<bool> WriteLinksAsyc(List<string> vsUrlList)
+        {
+            // use await here, like so:
+            return await Task.Run(() => WriteLinks(vsUrlList));
+        }
         public bool WriteLinks(List<string> vsUrlList)
         {
             try
@@ -131,6 +159,28 @@ namespace FFTool.OB
                 
             }
             
+        }
+        public bool WriteLinks()
+        {
+            try
+            {
+                cFile oFile = new cFile(msExportedLinkPath);
+
+                //oFile.FileName = msExportedLinkPath;
+                for (int iCnt = 0; iCnt < msUrlList.Count(); iCnt++)
+                {
+
+                    oFile.Write(msUrlList[iCnt]);
+                }
+                return true;
+            }
+            catch (Exception ex)
+            {
+                return false;
+                throw ex;
+
+            }
+
         }
         public bool SortLinks(string vsPath)
         {
