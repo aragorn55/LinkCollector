@@ -5,7 +5,13 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookmarkSorted2.UI", "BookmarkSorted2.UI\BookmarkSorted2.UI.csproj", "{3EFD36E5-34DC-4C68-B492-C6AAF635ECB9}"
 EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "BookmarkSorted2.shared", "BookmarkSorted2.shared\BookmarkSorted2.shared.shproj", "{62D1DF7A-AC42-42CA-BD04-87AC1EF4E967}"
+EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		BookmarkSorted2.shared\BookmarkSorted2.shared.projitems*{3efd36e5-34dc-4c68-b492-c6aaf635ecb9}*SharedItemsImports = 4
+		BookmarkSorted2.shared\BookmarkSorted2.shared.projitems*{62d1df7a-ac42-42ca-bd04-87ac1ef4e967}*SharedItemsImports = 13
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -18,5 +24,12 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = BookmarkSorted2.UI\BookmarkSorted2.UI.csproj
+		Policies = $0
+		$0.DotNetNamingPolicy = $1
+		$1.DirectoryNamespaceAssociation = PrefixedHierarchical
+		$1.ResourceNamePolicy = FileFormatDefault
 	EndGlobalSection
 EndGlobal

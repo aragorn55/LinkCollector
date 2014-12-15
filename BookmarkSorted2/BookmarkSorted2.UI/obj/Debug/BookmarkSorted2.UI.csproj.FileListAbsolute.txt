@@ -1,4 +1,8 @@
-C:\G\LinkCollector\BookmarkSorted2\BookmarkSorted2.UI\obj\Debug\BookmarkSorted2.UI.csprojResolveAssemblyReference.cache
+C:\G\LinkCollector\BookmarkSorted2\BookmarkSorted2.UI\obj\Debug\BookmarkSorted2.UI.frmBookmarks.resources
 C:\G\LinkCollector\BookmarkSorted2\BookmarkSorted2.UI\obj\Debug\BookmarkSorted2.UI.Properties.Resources.resources
 C:\G\LinkCollector\BookmarkSorted2\BookmarkSorted2.UI\obj\Debug\BookmarkSorted2.UI.csproj.GenerateResource.Cache
 C:\G\LinkCollector\BookmarkSorted2\BookmarkSorted2.UI\bin\Debug\BookmarkSorted2.UI.exe.config
+C:\G\LinkCollector\BookmarkSorted2\BookmarkSorted2.UI\bin\Debug\BookmarkSorted2.UI.exe
+C:\G\LinkCollector\BookmarkSorted2\BookmarkSorted2.UI\bin\Debug\BookmarkSorted2.UI.pdb
+C:\G\LinkCollector\BookmarkSorted2\BookmarkSorted2.UI\obj\Debug\BookmarkSorted2.UI.exe
+C:\G\LinkCollector\BookmarkSorted2\BookmarkSorted2.UI\obj\Debug\BookmarkSorted2.UI.pdb

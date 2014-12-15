@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace BookmarkSorted2.UI
+namespace BookmarkCollector.UI
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace BookmarkSorted2.UI
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmBookmarks());
+            Application.Run(new Form1());
         }
     }
 }

@@ -1,13 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+using BookmarkSorted2.shared;
 
 namespace BookmarkSorted2.UI
 {
@@ -27,19 +21,19 @@ namespace BookmarkSorted2.UI
             string strBookmark = null;
             oBkSorter = new CBookmarkSorter();
 
-            OpenFileDialog ofdOpenDlg = new OpenFileDialog();
+            var ofdOpenDlg = new OpenFileDialog();
 
             ofdOpenDlg.InitialDirectory = "C:\\FileIO";
             ofdOpenDlg.Title = "Pick a file to Open";
             ofdOpenDlg.Filter = "Text files (*.txt)|*.txt|All Files (*.*)|*.*";
 
 
-            if (ofdOpenDlg.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+            if (ofdOpenDlg.ShowDialog() == DialogResult.OK)
             {
                 // Open the file that the user picked
 
                 sPath = ofdOpenDlg.FileName;
-                this.Text = sPath;
+                Text = sPath;
 
                 if (File.Exists(sPath))
                 {
@@ -55,15 +49,11 @@ namespace BookmarkSorted2.UI
                     // Cleanup the variables
                     oFile.Close();
                     oFile.Dispose();
-
-
                 }
                 else
                 {
                     MessageBox.Show("File doeesn't exist.");
-
                 }
-
             }
             oFile = null;
         }
@@ -77,19 +67,19 @@ namespace BookmarkSorted2.UI
             string strBookmark = null;
             oBkExtractor = new CBookmarkExtractor();
 
-            OpenFileDialog ofdOpenDlg = new OpenFileDialog();
+            var ofdOpenDlg = new OpenFileDialog();
 
             ofdOpenDlg.InitialDirectory = "C:\\FileIO";
             ofdOpenDlg.Title = "Pick a file to Open";
             ofdOpenDlg.Filter = "Text files (*.html)|*.txt|All Files (*.*)|*.*";
 
 
-            if (ofdOpenDlg.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+            if (ofdOpenDlg.ShowDialog() == DialogResult.OK)
             {
                 // Open the file that the user picked
 
                 sPath = ofdOpenDlg.FileName;
-                this.Text = sPath;
+                Text = sPath;
 
                 if (File.Exists(sPath))
                 {
@@ -105,33 +95,28 @@ namespace BookmarkSorted2.UI
                     // Cleanup the variables
                     oFile.Close();
                     oFile.Dispose();
-
-
                 }
                 else
                 {
                     MessageBox.Show("File doeesn't exist.");
-
                 }
-
             }
             oFile = null;
-
         }
+
         private void btnHtml_Click(object sender, EventArgs e)
         {
-
+            two();
         }
 
         private void btnOpen_Click(object sender, EventArgs e)
         {
-
+            one();
         }
 
         private void btnExit_Click(object sender, EventArgs e)
         {
-
+            Application.Exit();
         }
-        
     }
 }
