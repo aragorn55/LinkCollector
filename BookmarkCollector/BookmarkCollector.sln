@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookmarkCollector.UI", "Boo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookmarkCollector.ob", "BookmarkCollector.ob\BookmarkCollector.ob.csproj", "{B448C186-5252-4E7B-9A9D-8D432E0B28D9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utilities.DL", "Utilities.DL\Utilities.DL.csproj", "{451582F7-DC25-4762-AD38-828E7953DBF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookmarkCollector.Console", "BookmarkCollector.Console\BookmarkCollector.Console.csproj", "{EDEDCCFB-A6B6-4712-BE58-0665FEB72726}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{B448C186-5252-4E7B-9A9D-8D432E0B28D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B448C186-5252-4E7B-9A9D-8D432E0B28D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B448C186-5252-4E7B-9A9D-8D432E0B28D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{451582F7-DC25-4762-AD38-828E7953DBF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{451582F7-DC25-4762-AD38-828E7953DBF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{451582F7-DC25-4762-AD38-828E7953DBF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{451582F7-DC25-4762-AD38-828E7953DBF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDEDCCFB-A6B6-4712-BE58-0665FEB72726}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDEDCCFB-A6B6-4712-BE58-0665FEB72726}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDEDCCFB-A6B6-4712-BE58-0665FEB72726}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDEDCCFB-A6B6-4712-BE58-0665FEB72726}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
