@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO.Compression;
-
+using Pri.LongPath;
 namespace Utilities.zip
 {
     public class CEpubZip
@@ -16,14 +16,13 @@ namespace Utilities.zip
         {
             msFilePath = vsPath;
         }
-
         public List<string> ReturnEpubContents()
         {
-           
+            
 
-   
 
-    using (FileStream zipFileToOpen = new FileStream(msFilePath, FileMode.Open))
+            using (FileStream zipFileToOpen = Pri.LongPath.File.OpenRead(msFilePath))
+    
     using (ZipArchive archive = new ZipArchive(zipFileToOpen, ZipArchiveMode.Read))
     {
 

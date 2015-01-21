@@ -10,8 +10,8 @@ namespace UrlCollector.Console
     {
         static void Main(string[] args)
         {
-            System.Console.WindowWidth = 192;
-           System.Console.Write("test");
+            
+           System.Console.WriteLine("test");
             CTest oTest = new CTest();
             oTest.ProcessEpubList("epub.txt", "testepub.txt");
         }

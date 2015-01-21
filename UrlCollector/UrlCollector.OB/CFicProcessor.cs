@@ -118,7 +118,7 @@ namespace UrlCollector.OB
             {
                 CHtmlFicFile oHtmlFile = new CHtmlFicFile(spath);
                 List<string> oList = new List<string>();
-                Console.Write(spath);
+                Console.WriteLine(spath);
                 oHtmlFile.LoadFile();
                 var sSources = oHtmlFile.Source;
                 if (sSources.Count > 0)

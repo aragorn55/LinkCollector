@@ -47,7 +47,7 @@ namespace UrlCollector.OB
                 {
                     CEpubFile oEpubFile = new CEpubFile(spath);
 
-                    Console.Write(spath);
+                    Console.WriteLine(spath);
                     List<string> oList = oEpubFile.FindUrlsList();
 
                     if (oList.Count > 0)

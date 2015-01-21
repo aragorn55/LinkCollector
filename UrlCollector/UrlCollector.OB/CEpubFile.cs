@@ -15,7 +15,7 @@ namespace UrlCollector.OB
         {
             msFilePath = vsPath;
         }
-
+        
         public List<string> FindUrlsList()
         {
           CEpubZip oEpubZip = new CEpubZip(msFilePath);
