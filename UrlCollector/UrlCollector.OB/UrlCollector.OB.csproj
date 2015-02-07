@@ -59,7 +59,7 @@
   <ItemGroup>
     <Compile Include="CEpubFile.cs" />
     <Compile Include="CFicProcessor.cs" />
-    <Compile Include="CTest.cs" />
+    <Compile Include="CFicFileTool.cs" />
     <Compile Include="CTextUrlSearch.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

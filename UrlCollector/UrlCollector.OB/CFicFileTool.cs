@@ -6,13 +6,67 @@ using System.Threading.Tasks;
 using Utilities.DL;
 namespace UrlCollector.OB
 {
-    public class CTest
+    public class CFicFileTool
     {
         public CFile oSaveFile = new CFile("FicUrls.txt");
 
-        public CTest()
+        public CFicFileTool()
         {
             
+        }
+
+        public bool ProcessFileList(string vsFileInput, string vsOutput)
+        {
+            try
+            {
+                CFile oFile = new CFile(vsFileInput);
+                oSaveFile.FileName = vsOutput;
+                List<string> epubList = oFile.ReadList();
+                foreach (var spath in epubList)
+                {
+
+                    ProcessFile(spath);
+                }
+                return true;
+            }
+            catch (Exception ex)
+            {
+
+                oSaveFile.WriteLog(vsFileInput, "error.log");
+                oSaveFile.WriteLog(ex.Message, "error.log");
+                return false;
+            }
+        }
+
+        public bool ProcessFile(string spath)
+        {
+
+            try
+            {
+                if (spath.Substring(spath.Length - 5) == ".epub")
+                {
+
+                    ProcessEpub(spath);
+                }
+                else
+                {
+                    ProcessText(spath);
+                }
+            }
+            catch (Exception ex)
+            {
+
+                oSaveFile.WriteLog(spath, "error.log");
+                oSaveFile.WriteLog(ex.Message, "error.log");
+                return false;
+            }
+
+            return false;
+        }
+
+        private void ProcessText(string spath)
+        {
+            throw new NotImplementedException();
         }
 
 
@@ -52,9 +106,9 @@ namespace UrlCollector.OB
 
                     if (oList.Count > 0)
                     {
-                        foreach (var VARIABLE in oList)
+                        foreach (var variable in oList)
                         {
-                            oSaveFile.Write(VARIABLE);
+                            oSaveFile.Write(variable);
                         }
                         return true;
                     }

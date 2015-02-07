@@ -22,18 +22,11 @@ namespace UrlCollector.OB
               
                     foreach (var e in oEpubZip.ReturnEpubContents())
                     {
-                       
                         SearchEntry(e);
                     }
-
-
-
                     return _urList;
             }
 
-           
-        
-    
 
         private void SearchEntry(string e)
         {

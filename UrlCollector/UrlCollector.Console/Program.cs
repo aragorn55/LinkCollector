@@ -12,8 +12,8 @@ namespace UrlCollector.Console
         {
             
            System.Console.WriteLine("test");
-            CTest oTest = new CTest();
-            oTest.ProcessEpubList("epub.txt", "testepub.txt");
+            CFicFileTool oFicFileTool = new CFicFileTool();
+            oFicFileTool.ProcessEpubList("epub.txt", "testepub.txt");
         }
     }
 }

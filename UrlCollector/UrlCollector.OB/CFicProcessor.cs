@@ -9,7 +9,7 @@ namespace UrlCollector.OB
 {
     public class CFicProcessor
     {
-        public CFile oSaveFile = new CFile("FicUrls.txt");
+        public CFile OSaveFile = new CFile("FicUrls.txt");
         public CFicProcessor()
         {
             
@@ -20,7 +20,7 @@ namespace UrlCollector.OB
             try
             {
                 CFile oFile = new CFile(vsFileInput);
-                oSaveFile.FileName = vsOutput;
+                OSaveFile.FileName = vsOutput;
                 List<string> epubList = oFile.ReadList();
                 foreach (var spath in epubList)
                 {
@@ -31,19 +31,19 @@ namespace UrlCollector.OB
             catch (Exception ex)
             {
 
-                oSaveFile.WriteLog(vsFileInput, "error.log");
-                oSaveFile.WriteLog(ex.Message, "error.log");
+                OSaveFile.WriteLog(vsFileInput, "error.log");
+                OSaveFile.WriteLog(ex.Message, "error.log");
                 return false;
             }
 
         }
-        /*
+        
         public bool ProcessHtmlList(string vsFileInput, string vsOutput)
         {
             try
             {
                 CFile oFile = new CFile(vsFileInput);
-                oSaveFile.FileName = vsOutput;
+                OSaveFile.FileName = vsOutput;
                 List<string> epubList = oFile.ReadList();
                 foreach (var spath in epubList)
                 {
@@ -54,14 +54,15 @@ namespace UrlCollector.OB
             catch (Exception ex)
             {
 
-                oSaveFile.WriteLog(vsFileInput, "error.log");
-                oSaveFile.WriteLog(ex.Message, "error.log");
+                OSaveFile.WriteLog(vsFileInput, "error.log");
+                OSaveFile.WriteLog(ex.Message, "error.log");
                 return false;
             }
 
         }
         private bool ProcessEpub(string spath)
         {
+            /*
             try
             {
                 CEpubFicFile oEpubFile = new CEpubFicFile(spath);
@@ -109,54 +110,58 @@ namespace UrlCollector.OB
                 oSaveFile.WriteLog(ex.Message, "error.log");
                 return false;
             }
-            
-
+            */
+            return false;
         }
         private bool ProcessHtml(string spath)
         {
-            try
-            {
-                CHtmlFicFile oHtmlFile = new CHtmlFicFile(spath);
-                List<string> oList = new List<string>();
-                Console.WriteLine(spath);
-                oHtmlFile.LoadFile();
-                var sSources = oHtmlFile.Source;
-                if (sSources.Count > 0)
-                {
-                    foreach (var sSource in sSources)
-                    {
-                        if (sSource.Length > 3)
-                        {
-                            oList.Add(sSource);
-                        }
-                    }
-                }
+            /*
+           try
+           {
+               CHtmlFicFile oHtmlFile = new CHtmlFicFile(spath);
+               List<string> oList = new List<string>();
+               Console.WriteLine(spath);
+               oHtmlFile.LoadFile();
+               var sSources = oHtmlFile.Source;
+               if (sSources.Count > 0)
+               {
+                   foreach (var sSource in sSources)
+                   {
+                       if (sSource.Length > 3)
+                       {
+                           oList.Add(sSource);
+                       }
+                   }
+               }
 
-                if (oList.Count > 0)
-                {
-                    foreach (var VARIABLE in oList)
-                    {
-                        oSaveFile.Write(VARIABLE);
-                    }
-                    return true;
-                }
+               if (oList.Count > 0)
+               {
+                   foreach (var VARIABLE in oList)
+                   {
+                       oSaveFile.Write(VARIABLE);
+                   }
+                   return true;
+               }
 
-                oSaveFile.WriteLog(spath, "error.log");
+               oSaveFile.WriteLog(spath, "error.log");
 
 
-                return false;
-            }
-            catch (Exception ex)
-            {
+               return false;
+           }
+           catch (Exception ex)
+           {
 
-                oSaveFile.WriteLog(spath, "error.log");
-                oSaveFile.WriteLog(ex.Message, "error.log");
-                return false;
-            }
-
+               oSaveFile.WriteLog(spath, "error.log");
+               oSaveFile.WriteLog(ex.Message, "error.log");
+               return false;
+           }
+            */
+            return false;
 
         }
-        
-         */
+       
+         
     }
+
+   
 }
