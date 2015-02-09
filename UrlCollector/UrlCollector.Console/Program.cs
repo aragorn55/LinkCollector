@@ -6,14 +6,15 @@ using System.Threading.Tasks;
 using UrlCollector.OB;
 namespace UrlCollector.Console
 {
-    class Program
+    static class Program
     {
         static void Main(string[] args)
         {
             
            System.Console.WriteLine("test");
             CFicFileTool oFicFileTool = new CFicFileTool();
-            oFicFileTool.ProcessEpubList("epub.txt", "testepub.txt");
+           // oFicFileTool.ProcessEpubList("epub.txt", "testepub.txt");
+           //System.Console.
         }
     }
 }

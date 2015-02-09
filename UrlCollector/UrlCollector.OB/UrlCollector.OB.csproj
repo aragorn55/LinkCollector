@@ -60,6 +60,8 @@
     <Compile Include="CEpubFile.cs" />
     <Compile Include="CFicProcessor.cs" />
     <Compile Include="CFicFileTool.cs" />
+    <Compile Include="CRtfFile.cs" />
+    <Compile Include="CTextFile.cs" />
     <Compile Include="CTextUrlSearch.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -4,7 +4,8 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Utilities.zip;
+using Utilities.DL;
+
 namespace UrlCollector.OB
 {
     public class CEpubFile

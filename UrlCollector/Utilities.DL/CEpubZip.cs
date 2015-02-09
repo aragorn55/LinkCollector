@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.IO.Compression;
-using Pri.LongPath;
-namespace Utilities.zip
+
+namespace Utilities.DL
 {
     public class CEpubZip
     {

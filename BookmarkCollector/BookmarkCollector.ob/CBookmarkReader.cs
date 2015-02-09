@@ -15,6 +15,7 @@ namespace BookmarkCollector.ob
     {
         private  ChromeBookmarksReader oReader = new ChromeBookmarksReader();
         private NetscapeBookmarksReader oHtmlReader = new NetscapeBookmarksReader();
+        
         private List<string> oFilesList = new List<string>();
         private List<string> oUrListList = new List<string>();
         private string output = "out.txt";
