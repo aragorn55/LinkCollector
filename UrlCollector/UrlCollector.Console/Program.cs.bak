@@ -13,9 +13,8 @@ namespace UrlCollector.Console
             
            System.Console.WriteLine("test");
             CFicFileTool oFicFileTool = new CFicFileTool();
-            oFicFileTool.ProcessFileList("rtf1.txt", "rtfout.txt");
-            // oFicFileTool.ProcessEpubList("epub.txt", "testepub.txt");
-            //System.Console.
+           // oFicFileTool.ProcessEpubList("epub.txt", "testepub.txt");
+           //System.Console.
         }
     }
 }

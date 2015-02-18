@@ -9,7 +9,7 @@ namespace UrlCollector.OB
     internal class CRtfFile
     {
         private string spath;
-        private string _sRtfContent = "";
+        private string sRTFContent = "";
         private List<string> _urList = new List<string>();
         public CRtfFile(string spath)
         {
@@ -23,7 +23,7 @@ namespace UrlCollector.OB
                 if (RTFLoader(spath))
                 {
                     CTextUrlSearch oSearch = new CTextUrlSearch();
-                    List<string> voList = oSearch.GetLinks(_sRtfContent);
+                    List<string> voList = oSearch.GetLinks(sRTFContent);
                     foreach (var oUrl in voList)
                     {
                         _urList.Add(oUrl);
@@ -43,10 +43,10 @@ namespace UrlCollector.OB
 
         public bool RTFLoader(string spath)
         {
-            string rtfContent;
+            string rtf_content;
             try
             {
-                rtfContent = System.IO.File.ReadAllText(spath);
+                rtf_content = System.IO.File.ReadAllText(spath);
                
             }
             catch (Exception ex)
@@ -55,17 +55,18 @@ namespace UrlCollector.OB
                 return false;
             }
 
-           _sRtfContent = ConvertToPlainText(rtfContent);
+            ConvertToPlainText(rtf_content);
             return true;
-
         }
-        public string ConvertToPlainText(string rtfContent)
-        {
+        public string ConvertToPlainText(string rtf_content)
+        { 
             System.Windows.Forms.RichTextBox rtBox = new System.Windows.Forms.RichTextBox();
-            rtBox.Rtf = rtfContent;
+            rtBox.Rtf = rtf_content;
             string plainText = rtBox.Text;
-
+           
             return plainText;
         }
+
+        
     }
 }

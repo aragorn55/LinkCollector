@@ -39,30 +39,18 @@ namespace UrlCollector.OB
             }
         }
 
-        public bool ProcessFile1(string spath)
-        {
-
-            try
-            {
-                ExtractFromFile(spath);
-            }
-            catch (Exception ex)
-            {
-
-                oSaveFile.WriteLog(spath, "error.log");
-                oSaveFile.WriteLog(ex.Message, "error.log");
-                return false;
-            }
-
-            return false;
-        }
-
         private List<string> ExtractFromFile(string spath)
         {
             if (spath.Substring(spath.Length - 5) == ".epub")
             {
-                ProcessEpub(spath);
+                //ProcessEpub(spath);
                 var oList = ExtractFromEpub(spath);
+                return oList;
+            }
+            if (spath.Substring(spath.Length - 4) == ".rtf")
+            {
+                //ProcessEpub(spath);
+                var oList = ExtractFromRtf(spath);
                 return oList;
             }
             else
@@ -161,67 +149,9 @@ namespace UrlCollector.OB
         }
 
        
-        public bool ProcessEpubList(string vsFileInput, string vsOutput)
-        {
-            try
-            {
-                CFile oFile = new CFile(vsFileInput);
-                oSaveFile.FileName = vsOutput;
-                List<string> epubList = oFile.ReadList();
-                foreach (var spath in epubList)
-                {
-                    ProcessEpub(spath);
-                }
-                return true;
-            }
-            catch (Exception ex)
-            {
+        
 
-                oSaveFile.WriteLog(vsFileInput, "error.log");
-                oSaveFile.WriteLog(ex.Message, "error.log");
-                return false;
-            }
-
-        }
-
-        public bool ProcessEpub(string spath)
-        {
-            try
-            {
-                if (spath != null)
-                {
-                    var oList = ExtractFromEpub(spath);
-
-                    if (oList.Count > 0)
-                    {
-                        foreach (var variable in oList)
-                        {
-                            oSaveFile.Write(variable);
-                        }
-                        return true;
-                    }
-
-                    oSaveFile.WriteLog(spath, "error.log");
-
-
-                    return false; 
-                }
-                else
-                {
-                    oSaveFile.WriteLog("empty", "error.log");
-                    return false;
-                }
-            }
-            catch (Exception ex)
-            {
-
-                oSaveFile.WriteLog(spath, "error.log");
-                oSaveFile.WriteLog(ex.Message, "error.log");
-                return false;
-            }
-
-
-        }
+        
 
         private List<string> ExtractFromEpub(string spath)
         {
