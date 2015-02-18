@@ -47,7 +47,7 @@ namespace UrlCollector.OB
             try
             {
                 rtf_content = System.IO.File.ReadAllText(spath);
-                return true;
+               
             }
             catch (Exception ex)
             {
@@ -56,14 +56,17 @@ namespace UrlCollector.OB
             }
 
             ConvertToPlainText(rtf_content);
+            return true;
         }
         public string ConvertToPlainText(string rtf_content)
-        {
-            RichTextBox rt = new RichTextBox
-            {
-                Rtf = rtf_content,
-            };
-            return rt.Text;
+        { 
+            System.Windows.Forms.RichTextBox rtBox = new System.Windows.Forms.RichTextBox();
+            rtBox.Rtf = rtf_content;
+            string plainText = rtBox.Text;
+           
+            return plainText;
         }
+
+        
     }
 }
