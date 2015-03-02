@@ -1,8 +1,9 @@
-﻿<Properties>
+﻿<Properties StartupItem="FicFileTool.UI/FicFileTool.UI.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="FicFileTool.UI/Form1.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="FicFileTool.IOS/EpubViewController.cs">
     <Files>
-      <File FileName="FicFileTool.UI/Form1.cs" Line="146" Column="47" />
+      <File FileName="FicFileTool.UI/Form1.cs" Line="2" Column="2" />
+      <File FileName="FicFileTool.IOS/EpubViewController.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
