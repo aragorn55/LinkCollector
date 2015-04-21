@@ -34,10 +34,8 @@ namespace FicFileTool.UI
                 var dir = folderBrowserDialog1.SelectedPath;
                 //List<string> dirs
                // var items = epubListView.Items;
-                var dirs = Directory.GetFiles(dir, "*.epub", SearchOption.AllDirectories);
-                //this.oEpubFileList.SetObjects(dirs);
-				_fileList = new List<cEpubFile>();
-				
+                var dirs = GetFiles(dir);
+
                 LoadList(dirs);
                 oEpubFileList.SetObjects(_fileList);
                 //this.olvComplex.AddObjects(list);
@@ -47,7 +45,15 @@ namespace FicFileTool.UI
             }
         }
 
-		private void LoadList (string[] dirs)
+        private string[] GetFiles(string dir)
+        {
+            var dirs = Directory.GetFiles(dir, "*.epub", SearchOption.AllDirectories);
+            //this.oEpubFileList.SetObjects(dirs);
+           
+            return dirs;
+        }
+
+        private void LoadList (string[] dirs)
 		{
 			
 			foreach (var sfile in dirs) {

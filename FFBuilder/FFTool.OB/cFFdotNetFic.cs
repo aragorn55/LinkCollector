@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace FFtool.OB
+namespace FFTool.OB
 {
     public class cFFdotNetFic: cFic
     {

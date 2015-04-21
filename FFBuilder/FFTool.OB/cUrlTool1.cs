@@ -5,7 +5,7 @@ using System.Text;
 using Utilities.DL;
 using System.Text.RegularExpressions;
 
-namespace FFtool.OB
+namespace FFTool.OB
 {
     public class cUrlTool1
     {

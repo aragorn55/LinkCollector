@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace FFtool1.OB
+namespace FFTool.OB
 {
-    public class cFFdotNetFic
+    public class cFFdotNetUrl
     {
 
         private string msUrl;
